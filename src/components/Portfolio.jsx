@@ -1,92 +1,81 @@
 import React from 'react';
-import cpp from '../assets/cpp_logo.png';
-import express from '../assets/express.png';
-import html from '../assets/html.png';
-import java from '../assets/java.png';
-import javascript from '../assets/javascript.png';
-import mongodb from '../assets/mongodb.jpg';
-import nodejs from '../assets/node.png';
-import react from '../assets/reactjs.png';
+import panchayat from '../assets/panchayat.png';
+import foodmania from '../assets/foodmania.png';
+import filesharingapp from '../assets/filesharingapp.png';
 
 const Portfolio = () => {
   const cardFiles = [
     {
       id: 1,
-      logo: mongodb,
-      name: 'MongoDB',
-      details:'rabdom data'
+      logo: panchayat,
+      name: 'Panchayat - Chat App',
+      details:
+        'Developed a real-time chat application using the MERN stack and Socket.IO, allowing users to join multiple rooms, exchange messages instantly, and view timestamps. Integrated Cloudinary for profile image uploads and designed a responsive UI for a seamless experience across devices.',
+      sourceCode: 'https://github.com/SuryaPratap03/FileSharingApp',
+      url: 'https://fastidious-blancmange-74d464.netlify.app/',
     },
     {
       id: 2,
-      logo: cpp,
-      name: 'C++',
-      details:'rabdom data'
+      logo: foodmania,
+      name: 'FoodMania',
+      details:
+        'Developed a Food Ordering Website using the MERN stack, featuring user authentication, category-based item browsing, and secure JWT-protected routes. Leveraged MongoDB Atlas for managing user and food data, React Router for navigation, and Redux Toolkit for state management.',
+      sourceCode: 'https://github.com/SuryaPratap03/FoodApp',
+      url: 'https://effortless-biscuit-726b73.netlify.app',
     },
     {
       id: 3,
-      logo: express,
-      details:'rabdom data',
-      name: 'Express.js'
-    },
-    {
-      id: 4,
-      logo: html,
-      details:'rabdom data',
-      name: 'HTML'
-    },
-    {
-      id: 5,
-      logo: java,
-      name: 'Java',
-      details:'rabdom data'
-    },
-    {
-      id: 6,
-      logo: javascript,
-      name: 'JavaScript',
-      details:'rabdom data'
-    },
-    {
-      id: 7,
-      logo: nodejs,
-      name: 'Node.js',
-      details:'rabdom data'
-    },
-    {
-      id: 8,
-      logo: react,
-      name: 'React.js',
-      details:'rabdom data'
+      logo: filesharingapp,
+      name: 'File Sharing App',
+      details:
+        'Developed a file-sharing app using React with seamless file uploads, instant link sharing, and file size validation (up to 5MB). Designed a mobile-friendly UI with Tailwind CSS, featuring real-time updates, clipboard link copying, and detailed file displays.',
+      sourceCode: 'https://github.com/SuryaPratap03/FileSharingApp',
+      url: 'https://file-sharing-app-mu-six.vercel.app/',
     },
   ];
 
   return (
-    <div name='Portfolio' className="bg-blue-50 min-h-screen py-12">
+    <div name="Portfolio" className="bg-blue-50 min-h-screen py-12">
       <div className="container mx-auto px-6 md:px-12 text-center">
         <h1 className="text-4xl font-bold text-gray-800 mb-4">Portfolio</h1>
         <span className="underline text-blue-600 text-lg hover:text-blue-500 transition duration-300">
           Featured Projects
         </span>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
           {cardFiles.map((file) => (
             <div
               key={file.id}
-              className="bg-white rounded-lg shadow-md p-6 transform transition duration-300 hover:scale-105 hover:shadow-lg"
+              className="bg-white rounded-lg shadow-md p-6 transform transition duration-300 hover:scale-105 hover:shadow-lg flex flex-col items-center"
+              style={{ minHeight: '400px' }}
             >
               <img
                 src={file.logo}
                 alt={`${file.name} Logo`}
-                className="w-16 h-16 mx-auto mb-4"
+                className="w-32 h-32 object-contain mb-4"
               />
-              <h2 className="text-xl font-semibold text-gray-800">{file.name}</h2>
-              <p className=" text-gray-800">{file.details}</p>
-              <div className="mt-4 flex justify-center space-x-4">
-                <button className="bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-500 transition duration-300">
+              <h1 className="text-xl mb-2 font-semibold text-gray-800 text-center">
+                {file.name}
+              </h1>
+              <p className="text-gray-700 text-center text-sm mb-4">
+                {file.details}
+              </p>
+              <div className="mt-auto flex space-x-4">
+                <a
+                  className="bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-500 transition duration-300"
+                  href={file.sourceCode}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Source Code
-                </button>
-                <button className="bg-gray-200 text-gray-700 py-2 px-4 rounded-lg hover:bg-gray-300 transition duration-300">
+                </a>
+                <a
+                  className="bg-gray-200 text-gray-700 py-2 px-4 rounded-lg hover:bg-gray-300 transition duration-300"
+                  href={file.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   View
-                </button>
+                </a>
               </div>
             </div>
           ))}

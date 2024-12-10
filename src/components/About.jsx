@@ -1,7 +1,9 @@
 import React from 'react';
 import user from '../assets/photo.avif';
+import { MdFileDownload } from "react-icons/md";
 
 const About = () => {
+  
   return (
     <div name='About' className="bg-blue-50 min-h-screen py-12">
       <div className="container mx-auto px-6 md:px-12">
