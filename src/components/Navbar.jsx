@@ -1,19 +1,16 @@
-import React, { useState } from 'react';
-import { Link } from 'react-scroll';
-import user from '../assets/photo.avif';
+import React, { useState } from "react";
+import { Link } from "react-scroll";
+import user from "../assets/photo.avif";
 
 const Navbar = () => {
-  // State to manage mobile menu visibility
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  // Toggle the mobile menu
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!isMobileMenuOpen);
   };
 
-  // Close the mobile menu when a menu item is clicked
   const handleMenuItemClick = () => {
-    setMobileMenuOpen(false); // Close the menu
+    setMobileMenuOpen(false);
   };
 
   return (
@@ -83,13 +80,23 @@ const Navbar = () => {
                 Contact
               </Link>
             </li>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/1ySDqVpvvxlS--ph1otxb7ZbKm6U2QZjg/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-blue-400 cursor-pointer"
+              >
+                Resume
+              </a>
+            </li>
           </ul>
         </div>
 
         {/* Mobile Menu Button */}
         <button
           className="md:hidden text-white focus:outline-none"
-          onClick={toggleMobileMenu} // Toggle menu visibility
+          onClick={toggleMobileMenu}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -112,7 +119,7 @@ const Navbar = () => {
       {isMobileMenuOpen && (
         <div className="bg-blue-800 text-white md:hidden">
           <ul className="flex flex-col items-center space-y-4 py-4">
-            <li >
+            <li>
               <Link
                 to="Home"
                 smooth={true}
@@ -124,7 +131,7 @@ const Navbar = () => {
                 Home
               </Link>
             </li>
-            <li >
+            <li>
               <Link
                 to="About"
                 smooth={true}
@@ -136,7 +143,7 @@ const Navbar = () => {
                 About
               </Link>
             </li>
-            <li >
+            <li>
               <Link
                 to="Portfolio"
                 smooth={true}
@@ -148,7 +155,7 @@ const Navbar = () => {
                 Portfolio
               </Link>
             </li>
-            <li >
+            <li>
               <Link
                 to="Contact"
                 smooth={true}
@@ -159,6 +166,17 @@ const Navbar = () => {
               >
                 Contact
               </Link>
+            </li>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/1ySDqVpvvxlS--ph1otxb7ZbKm6U2QZjg/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-blue-400 cursor-pointer"
+                onClick={toggleMobileMenu}
+              >
+                Resume
+              </a>
             </li>
           </ul>
         </div>
