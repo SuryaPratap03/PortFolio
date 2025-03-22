@@ -2,6 +2,7 @@ import React from 'react';
 import panchayat from '../assets/panchayat.png';
 import foodmania from '../assets/foodmania.png';
 import filesharingapp from '../assets/filesharingapp.png';
+import RestroApp from '../assets/RestroApp.png';
 
 const Portfolio = () => {
   const cardFiles = [
@@ -16,12 +17,12 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      logo: foodmania,
-      name: 'FoodMania',
+      logo: RestroApp,
+      name: 'Restro App - Restaurant Management App',
       details:
-        'Developed a Food Ordering Website using the MERN stack, featuring user authentication, category-based item browsing, and secure JWT-protected routes. Leveraged MongoDB Atlas for managing user and food data, React Router for navigation, and Redux Toolkit for state management.',
-      sourceCode: 'https://github.com/SuryaPratap03/FoodApp',
-      url: 'https://effortless-biscuit-726b73.netlify.app',
+        'Built a fully-functional food ordering platform using Next.js 13 with App Router, Tailwind CSS, and MongoDB Atlas. The app features user authentication, delivery partner, and restaurant owner roles with JWT-based authorization. Implemented real-time cart updates, checkout functionality, and restaurant management. Used Redux Toolkit for efficient state management and deployed the app on Vercel for optimal performance.',
+      sourceCode: 'https://github.com/SuryaPratap03/RestroApp',
+      url: 'https://restro-app-ic9q.vercel.app/',
     },
     {
       id: 3,
