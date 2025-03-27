@@ -16,8 +16,9 @@ const Navbar = () => {
   return (
     <div className="bg-blue-800 shadow-lg fixed top-0 left-0 w-full z-50">
       <div className="max-w-screen-2xl container mx-auto px-6 md:px-24 flex items-center justify-between py-4">
+        
         {/* Logo Section */}
-        <div className="flex items-center space-x-6">
+        <div className="flex items-center space-x-3 md:space-x-6">
           <img
             src={user}
             alt="Profile"
@@ -25,13 +26,13 @@ const Navbar = () => {
           />
           <div>
             <h1 className="text-xl font-bold text-white">Surya</h1>
-            <p className="text-sm text-blue-200">Software Engineer</p>
+            <p className="text-sm font-bold text-blue-200">Software Engineer</p>
           </div>
         </div>
 
         {/* Desktop Navigation Links */}
         <div className="hidden md:flex space-x-10">
-          <ul className="flex items-center space-x-8 text-base text-white font-medium">
+          <ul className="flex items-center space-x-8 text-base font-bold text-white">
             <li>
               <Link
                 to="Home"
@@ -118,7 +119,7 @@ const Navbar = () => {
       {/* Mobile Navigation Menu */}
       {isMobileMenuOpen && (
         <div className="bg-blue-800 text-white md:hidden">
-          <ul className="flex flex-col items-center space-y-4 py-4">
+          <ul className="flex flex-col items-center space-y-4 py-4 font-bold">
             <li>
               <Link
                 to="Home"
