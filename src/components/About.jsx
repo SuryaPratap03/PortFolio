@@ -32,7 +32,7 @@ const About = () => {
             <ul className="list-none space-y-2">
               <li>Email: <a href="mailto:sp7763360@gmail.com" className="text-blue-600 hover:underline">sp7763360@gmail.com</a></li>
               <li>GitHub Profile: <a href="https://github.com/SuryaPratap03" className="text-blue-600 hover:underline">https://github.com/SuryaPratap03</a></li>
-              <li>Portfolio: <a href="https://brilliant-wisp-bb3766.netlify.app" className="text-blue-600 hover:underline">https://restro-app-ic9q.vercel.app</a></li>
+              <li>Portfolio: <a href="https://brilliant-wisp-bb3766.netlify.app" className="text-blue-600 hover:underline">https://brilliant-wisp-bb3766.netlify.app</a></li>
             </ul>
 
             <h2 className="text-blue-600 font-bold text-2xl">Career Objective</h2>

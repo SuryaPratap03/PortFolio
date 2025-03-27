@@ -12,10 +12,10 @@ import { ReactTyped } from 'react-typed';
 
 const Home = () => {
   return (
-    <div name='Home' className="flex flex-col md:flex-row items-center justify-center bg-blue-50 min-h-screen px-6 py-12">
+    <div name='Home' className="flex flex-col md:flex-row items-center justify-center bg-blue-50 min-h-screen px-6 py-12 mt-14">
 
       {/* Left Section (Text) */}
-      <div className="w-full md:w-1/2 text-center md:text-left space-y-10 px-4 md:pl-20">  {/* Added md:pl-20 for right shift */}
+      <div className="w-full md:w-1/2 text-center md:text-left space-y-10 px-4 md:pl-20 ">  {/* Added md:pl-20 for right shift */}
         <span className="text-blue-600 text-xl font-medium uppercase tracking-wide">
           Welcome To My Feed
         </span>
