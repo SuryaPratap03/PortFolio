@@ -4,10 +4,20 @@ import foodmania from '../assets/foodmania.png';
 import filesharingapp from '../assets/filesharingapp.png';
 import RestroApp from '../assets/RestroApp.png';
 import AICodereviewer from '../assets/AICodereviewer.png';
+import Urbanservice from '../assets/Urbanservice.png';
 const Portfolio = () => {
   const cardFiles = [
     {
-      id: 1,
+  id: 1,
+  logo: Urbanservice, // Replace with the imported logo variable for Urban Service
+  name: 'Urban Service - Local Experts App',
+  details:
+    'Led the backend development of Urban Service, a live marketplace app connecting users with local service providers. Built in Node.js with TypeScript, the backend includes Stripe payment gateway integration, a robust recurring payment system using advanced Data Structures and Algorithms, and optimized SQL database operations via Prisma ORM. Designed and managed deployment pipelines to ensure performance, scalability, and reliability in production.',
+  url: 'https://play.google.com/store/apps/details?id=com.urban.services&hl=en-US&pli=1',
+},
+
+    {
+      id: 2,
       logo: panchayat,
       name: 'Panchayat - Chat App',
       details:
@@ -16,22 +26,13 @@ const Portfolio = () => {
       url: 'https://fastidious-blancmange-74d464.netlify.app/',
     },
     {
-      id: 2,
+      id: 3,
       logo: AICodereviewer,
       name: 'A.I. Code Reviewer 🤖 ',
       details:
         'Developed an AI-powered code review platform using Node.js for the backend and React for the frontend, integrated with the Gemini API to provide intelligent feedback on code. The platform analyzes code to highlight strengths, suggest improvements, and detect errors, making it a valuable tool for students to enhance their learning and for professionals to improve efficiency in their current jobs or prepare for interviews. Implemented responsive UI with React, ensured seamless API communication, and deployed the application for public use, allowing users to benefit from instant, actionable coding insights.',
       sourceCode: 'https://github.com/SuryaPratap03/AI-Code-Reviewer',
       url: 'https://restro-app-ic9q.vercel.app/',
-    },
-    {
-      id: 3,
-      logo: filesharingapp,
-      name: 'File Sharing App',
-      details:
-        'Developed a file-sharing app using React with seamless file uploads, instant link sharing, and file size validation (up to 5MB). Designed a mobile-friendly UI with Tailwind CSS, featuring real-time updates, clipboard link copying, and detailed file displays.',
-      sourceCode: 'https://github.com/SuryaPratap03/FileSharingApp',
-      url: 'https://ai-code-reviewer-five-beta.vercel.app/',
     },
   ];
 
