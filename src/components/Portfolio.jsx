@@ -32,7 +32,7 @@ const Portfolio = () => {
       details:
         'Developed an AI-powered code review platform using Node.js for the backend and React for the frontend, integrated with the Gemini API to provide intelligent feedback on code. The platform analyzes code to highlight strengths, suggest improvements, and detect errors, making it a valuable tool for students to enhance their learning and for professionals to improve efficiency in their current jobs or prepare for interviews. Implemented responsive UI with React, ensured seamless API communication, and deployed the application for public use, allowing users to benefit from instant, actionable coding insights.',
       sourceCode: 'https://github.com/SuryaPratap03/AI-Code-Reviewer',
-      url: 'https://restro-app-ic9q.vercel.app/',
+      url: 'https://ai-code-reviewer-five-beta.vercel.app/',
     },
   ];
 
