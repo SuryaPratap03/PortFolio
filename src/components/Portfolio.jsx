@@ -17,11 +17,11 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      logo: RestroApp,
-      name: 'Restro App - Restaurant Management App',
+      logo: AICodeReviwer,
+      name: 'A.I. Code Reviewer 🤖 ',
       details:
-        'Built a fully-functional food ordering platform using Next.js 13 with App Router, Tailwind CSS, and MongoDB Atlas. The app features user authentication, delivery partner, and restaurant owner roles with JWT-based authorization. Implemented real-time cart updates, checkout functionality, and restaurant management. Used Redux Toolkit for efficient state management and deployed the app on Vercel for optimal performance.',
-      sourceCode: 'https://github.com/SuryaPratap03/RestroApp',
+        'Developed an AI-powered code review platform using Node.js for the backend and React for the frontend, integrated with the Gemini API to provide intelligent feedback on code. The platform analyzes code to highlight strengths, suggest improvements, and detect errors, making it a valuable tool for students to enhance their learning and for professionals to improve efficiency in their current jobs or prepare for interviews. Implemented responsive UI with React, ensured seamless API communication, and deployed the application for public use, allowing users to benefit from instant, actionable coding insights.',
+      sourceCode: 'https://github.com/SuryaPratap03/AI-Code-Reviewer',
       url: 'https://restro-app-ic9q.vercel.app/',
     },
     {
