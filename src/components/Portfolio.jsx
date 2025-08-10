@@ -31,7 +31,7 @@ const Portfolio = () => {
       details:
         'Developed a file-sharing app using React with seamless file uploads, instant link sharing, and file size validation (up to 5MB). Designed a mobile-friendly UI with Tailwind CSS, featuring real-time updates, clipboard link copying, and detailed file displays.',
       sourceCode: 'https://github.com/SuryaPratap03/FileSharingApp',
-      url: 'https://file-sharing-app-mu-six.vercel.app/',
+      url: 'https://ai-code-reviewer-five-beta.vercel.app/',
     },
   ];
 
