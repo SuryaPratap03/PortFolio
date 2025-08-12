@@ -14,78 +14,80 @@ const About = () => {
             </h1>
 
             <p className="text-gray-700 text-lg md:text-xl leading-relaxed">
-              I am a passionate full-stack developer skilled in the MERN stack,
-              Next.js, and a strong foundation in Data Structures and
-              Algorithms. I specialize in building scalable applications with
-              clean code, optimizing performance, and creating dynamic,
-              responsive user interfaces.
+              I am a passionate Node.js backend developer with expertise in the
+              MERN stack, Next.js, and a solid foundation in Data Structures and
+              Algorithms. I specialize in designing and developing scalable
+              backend architectures, integrating secure payment systems and
+              AI-powered features, optimizing database performance, and
+              delivering clean, maintainable code for dynamic, responsive
+              applications.
             </p>
 
-<h2 className="text-blue-600 font-bold text-2xl">
-  Work Experience
-</h2>
+            <h2 className="text-blue-600 font-bold text-2xl">
+              Work Experience
+            </h2>
 
-{/* Urban Service Project */}
-<p className="text-gray-700 text-lg md:text-xl leading-relaxed">
-  At{" "}
-  <a
-    href="https://dotcubetechnologies.com/"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="text-blue-600 hover:underline"
-  >
-    DotCube Technologies
-  </a>
-  , I’ve confidently taken full ownership of backend systems—leading
-  architecture, development, and delivery with precision and reliability.
-  I spearheaded the backend for the live app{" "}
-  <a
-    href="https://play.google.com/store/apps/details?id=com.urban.services&hl=en-US&pli=1"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="text-blue-600 hover:underline"
-  >
-    Urban Service: Local Experts
-  </a>
-  , building the complete backend in{" "}
-  <strong>Node.js with TypeScript</strong>. My work included seamless
-  integration of <strong>Stripe</strong> for payments and designing a
-  dependable recurring payment flow using advanced{" "}
-  <strong>Data Structures and Algorithms</strong>. I optimized data handling
-  with an <strong>SQL database</strong> via{" "}
-  <strong>Prisma ORM</strong>, ensuring performance and scalability.
-  I also designed the deployment pipelines and managed launch processes
-  for production-grade hosting.
-</p>
+            {/* Urban Service Project */}
+            <p className="text-gray-700 text-lg md:text-xl leading-relaxed">
+              At{" "}
+              <a
+                href="https://dotcubetechnologies.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline"
+              >
+                DotCube Technologies
+              </a>
+              , I’ve confidently taken full ownership of backend systems—leading
+              architecture, development, and delivery with precision and
+              reliability. I spearheaded the backend for the live app{" "}
+              <a
+                href="https://play.google.com/store/apps/details?id=com.urban.services&hl=en-US&pli=1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline"
+              >
+                Urban Service: Local Experts
+              </a>
+              , building the complete backend in{" "}
+              <strong>Node.js with TypeScript</strong>. My work included
+              seamless integration of <strong>Stripe</strong> for payments and
+              designing a dependable recurring payment flow using advanced{" "}
+              <strong>Data Structures and Algorithms</strong>. I optimized data
+              handling with an <strong>SQL database</strong> via{" "}
+              <strong>Prisma ORM</strong>, ensuring performance and scalability.
+              I also designed the deployment pipelines and managed launch
+              processes for production-grade hosting.
+            </p>
 
-{/* TROMS Project */}
-<p className="text-gray-700 text-lg md:text-xl leading-relaxed mt-6">
-  Additionally, I developed the complete backend for{" "}
-  <a
-    href="https://apps.apple.com/app/troms/idXXXXXXXX"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="text-blue-600 hover:underline"
-  >
-    TROMS – All-in-One Fitness Companion
-  </a>
-  , an App Store–listed fitness platform. This included implementing
-  AI-powered features through <strong>Google’s Gemini API</strong> and{" "}
-  <strong>OpenAI’s ChatGPT API</strong> to deliver personalized workout and
-  meal plan recommendations. I built progress tracking and analytics systems,
-  managed secure subscription flows (monthly and yearly) with a 3-day free trial,
-  and ensured Apple compliance for auto-renewals. The backend architecture,
-  developed in <strong>Node.js with TypeScript</strong>, was designed for high
-  scalability, reliability, and seamless integration with the app’s frontend.
-</p>
+            {/* TROMS Project */}
+            <p className="text-gray-700 text-lg md:text-xl leading-relaxed mt-6">
+              Additionally, I developed the complete backend for{" "}
+              <a
+                href="https://apps.apple.com/app/troms/idXXXXXXXX"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline"
+              >
+                TROMS – All-in-One Fitness Companion
+              </a>
+              , an App Store–listed fitness platform. This included implementing
+              AI-powered features through <strong>Google’s Gemini API</strong>{" "}
+              and <strong>OpenAI’s ChatGPT API</strong> to deliver personalized
+              workout and meal plan recommendations. I built progress tracking
+              and analytics systems, managed secure subscription flows (monthly
+              and yearly) with a 3-day free trial, and ensured Apple compliance
+              for auto-renewals. The backend architecture, developed in{" "}
+              <strong>Node.js with TypeScript</strong>, was designed for high
+              scalability, reliability, and seamless integration with the app’s
+              frontend.
+            </p>
 
-<p className="text-gray-700 text-lg md:text-xl leading-relaxed mt-4">
-  I excel at tackling any backend challenge—from system design and API
-  development to database optimization and deployment—with skill, ownership,
-  and a delivery-focused mindset.
-</p>
-
-
+            <p className="text-gray-700 text-lg md:text-xl leading-relaxed mt-4">
+              I excel at tackling any backend challenge—from system design and
+              API development to database optimization and deployment—with
+              skill, ownership, and a delivery-focused mindset.
+            </p>
 
             <h2 className="text-blue-600 font-bold text-2xl">
               Internship Experience
