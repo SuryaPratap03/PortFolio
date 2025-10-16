@@ -35,10 +35,7 @@ const Home = () => {
         </div>
 
         <p className="text-gray-700 text-lg md:text-xl leading-relaxed">
-          Surya Pratap Singh is a skilled MERN stack developer with a strong foundation in Data Structures and Algorithms (DSA). 
-          He specializes in building scalable applications, crafting responsive user interfaces with React, 
-          and implementing robust backend systems using Node.js and MongoDB. 
-          Passionate about learning and problem-solving, he is driven to create impactful, real-world projects.
+          I'm a proficient full-stack developer with expertise in Node.js, TypeScript, React.js, Next.js, Express.js, MongoDB, SQL, and Prisma ORM. I have hands-on experience in building scalable backend systems, RESTful APIs, payment integrations (Stripe & Razorpay), AI-powered features (Google Gemini API & OpenAI ChatGPT API), and secure subscription management. Passionate about problem-solving and delivering high-quality solutions, and driven to create impactful, real-world projects.
         </p>
 
         {/* Social Media and Working Stack Sections */}
@@ -49,9 +46,9 @@ const Home = () => {
             <h2 className="text-xl font-semibold text-blue-800">Available on</h2>
             <div className="flex justify-center md:justify-start space-x-8 text-3xl text-blue-800">
               <a href="http://facebook.com"><FaFacebook className="hover:text-blue-600 cursor-pointer" /></a>
-              <a href="http://linkedin.com"><FaLinkedin className="hover:text-blue-600 cursor-pointer" /></a>
+              <a href="https://www.linkedin.com/in/surya-pratap-singh-7b5810213/"><FaLinkedin className="hover:text-blue-600 cursor-pointer" /></a>
               <a href="https://x.com/SuryaPratap300"><FaTwitter className="hover:text-blue-600 cursor-pointer" /></a>
-              <a href="https://web.whatsapp.com/"><IoLogoWhatsapp className="hover:text-green-500 cursor-pointer" /></a>
+              <a href="https://wa.me/919785408712"><IoLogoWhatsapp className="hover:text-green-500 cursor-pointer" /></a>
             </div>
           </div>
 

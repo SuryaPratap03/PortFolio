@@ -29,65 +29,102 @@ const About = () => {
 
             {/* Urban Service Project */}
             <p className="text-gray-700 text-lg md:text-xl leading-relaxed">
-              At{" "}
-              <a
-                href="https://dotcubetechnologies.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-600 hover:underline"
-              >
-                DotCube Technologies
-              </a>
-              , I’ve confidently taken full ownership of backend systems—leading
-              architecture, development, and delivery with precision and
-              reliability. I spearheaded the backend for the live app{" "}
-              <a
-                href="https://play.google.com/store/apps/details?id=com.urban.services&hl=en-US&pli=1"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-600 hover:underline"
-              >
-                Urban Service: Local Experts
-              </a>
-              , building the complete backend in{" "}
-              <strong>Node.js with TypeScript</strong>. My work included
-              seamless integration of <strong>Stripe</strong> for payments and
-              designing a dependable recurring payment flow using advanced{" "}
-              <strong>Data Structures and Algorithms</strong>. I optimized data
-              handling with an <strong>SQL database</strong> via{" "}
-              <strong>Prisma ORM</strong>, ensuring performance and scalability.
-              I also designed the deployment pipelines and managed launch
-              processes for production-grade hosting.
-            </p>
+  At{" "}
+  <a
+    href="https://dotcubetechnologies.com/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-blue-600 hover:underline"
+  >
+    DotCube Technologies
+  </a>
+  , I’ve confidently taken full ownership of backend systems—leading
+  architecture, development, and delivery with precision and reliability. I
+  spearheaded the backend for the live app{" "}
+  <a
+    href="https://play.google.com/store/apps/details?id=com.urban.services&hl=en-US&pli=1"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-blue-600 hover:underline"
+  >
+    Urban Service: Local Experts
+  </a>
+  , building the complete backend in{" "}
+  <strong>Node.js with TypeScript</strong>. My work included seamless
+  integration of <strong>Stripe</strong> for payments and designing a reliable
+  recurring payment flow using advanced{" "}
+  <strong>Data Structures and Algorithms</strong>. I optimized data handling
+  with an <strong>SQL database</strong> via <strong>Prisma ORM</strong>,
+  ensuring performance and scalability, while managing deployment pipelines
+  and production hosting on AWS.
+</p>
 
-            {/* TROMS Project */}
-            <p className="text-gray-700 text-lg md:text-xl leading-relaxed mt-6">
-              Additionally, I developed the complete backend for{" "}
-              <a
-                href="https://apps.apple.com/app/troms/idXXXXXXXX"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-600 hover:underline"
-              >
-                TROMS – All-in-One Fitness Companion
-              </a>
-              , an App Store–listed fitness platform. This included implementing
-              AI-powered features through <strong>Google’s Gemini API</strong>{" "}
-              and <strong>OpenAI’s ChatGPT API</strong> to deliver personalized
-              workout and meal plan recommendations. I built progress tracking
-              and analytics systems, managed secure subscription flows (monthly
-              and yearly) with a 3-day free trial, and ensured Apple compliance
-              for auto-renewals. The backend architecture, developed in{" "}
-              <strong>Node.js with TypeScript</strong>, was designed for high
-              scalability, reliability, and seamless integration with the app’s
-              frontend.
-            </p>
+{/* TROMS Project */}
+<p className="text-gray-700 text-lg md:text-xl leading-relaxed mt-6">
+  Additionally, I developed the complete backend for{" "}
+  <a
+    href="https://apps.apple.com/us/app/troms/id6747479780"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-blue-600 hover:underline"
+  >
+    TROMS – All-in-One Fitness Companion
+  </a>
+  , an App Store–listed fitness platform. I implemented AI-powered features
+  using <strong>Google’s Gemini API</strong> and{" "}
+  <strong>OpenAI’s ChatGPT API</strong> to generate personalized workout and
+  meal recommendations. Built progress tracking and analytics systems, managed
+  secure subscriptions with free trials and auto-renewals, and ensured Apple
+  compliance. The backend, built with <strong>Node.js and TypeScript</strong>,
+  was engineered for scalability, reliability, and seamless frontend
+  integration.
+</p>
 
-            <p className="text-gray-700 text-lg md:text-xl leading-relaxed mt-4">
-              I excel at tackling any backend challenge—from system design and
-              API development to database optimization and deployment—with
-              skill, ownership, and a delivery-focused mindset.
-            </p>
+{/* Qonect Project */}
+<p className="text-gray-700 text-lg md:text-xl leading-relaxed mt-6">
+  I also developed backend APIs for{" "}
+  <strong>Qonect</strong> (
+  <a
+    href="https://play.google.com/store/apps/details?id=com.tps_connect"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-blue-600 hover:underline"
+  >
+    Live on Play Store
+  </a>
+  ), a medical credit access app. Built using{" "}
+  <strong>Node.js and TypeScript</strong>, it integrated{" "}
+  <strong>Razorpay</strong> and third-party healthcare services to provide
+  users with instant access to medical credit. Ensured compliance with
+  healthcare data regulations and deployed scalable, secure services on{" "}
+  <strong>AWS EC2</strong> for high availability and performance.
+</p>
+
+{/* ArmPoints Project */}
+<p className="text-gray-700 text-lg md:text-xl leading-relaxed mt-6">
+  I also built the backend for{" "}
+  <strong>ArmPoints</strong> (
+  <a
+    href="https://play.google.com/store/apps/details?id=com.app.armpoint"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-blue-600 hover:underline"
+  >
+    Live on Play Store
+  </a>
+  ), a reward management application. Developed RESTful APIs using{" "}
+  <strong>Node.js and Express</strong> to handle user authentication, reward
+  tracking, and transaction analytics. Focused on data integrity, optimized
+  query performance, and deployed scalable backend services on{" "}
+  <strong>AWS EC2</strong> to ensure efficient and reliable performance.
+</p>
+
+<p className="text-gray-700 text-lg md:text-xl leading-relaxed mt-4">
+  I excel at tackling complex backend challenges—from architecture and API
+  design to optimization and deployment—with a strong sense of ownership and a
+  delivery-driven mindset.
+</p>
+
 
             <h2 className="text-blue-600 font-bold text-2xl">
               Internship Experience
@@ -148,10 +185,7 @@ const About = () => {
               Career Objective
             </h2>
             <p className="text-gray-700 text-lg md:text-xl leading-relaxed">
-              Aspiring IT professional seeking an entry-level position to
-              utilize my technical skills in full-stack development. Eager to
-              contribute to innovative projects, enhance my knowledge, and grow
-              alongside a talented team.
+              Motivated backend developer with strong expertise in Node.js, TypeScript, and modern web technologies, seeking a challenging position to build scalable, high-performance systems. Passionate about solving complex problems, contributing to impactful projects, and continuously growing as part of an innovative engineering team.
             </p>
 
             <h2 className="text-blue-600 font-bold text-2xl">

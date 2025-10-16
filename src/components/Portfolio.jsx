@@ -5,42 +5,60 @@ import filesharingapp from "../assets/filesharingapp.png";
 import RestroApp from "../assets/RestroApp.png";
 import AICodereviewer from "../assets/AICodereviewer.png";
 import Urbanservice from "../assets/Urbanservice.png";
+import QONECT from "../assets/QONECT.webp";
 import TROMS from "../assets/TROMS.webp";
+import ARMPOINTS from "../assets/ARMPOINTS.webp";
 const Portfolio = () => {
   const cardFiles = [
     {
       id: 1,
       logo: Urbanservice, // Replace with the imported logo variable for Urban Service
-      name: "Urban Service - Local Experts App",
+      name: "Urban Service - Local Experts App (Live On Play Store)",
       details:
         "Led the backend development of Urban Service, a live marketplace app connecting users with local service providers. Built in Node.js with TypeScript, the backend includes Stripe payment gateway integration, a robust recurring payment system using advanced Data Structures and Algorithms, and optimized SQL database operations via Prisma ORM. Designed and managed deployment pipelines to ensure performance, scalability, and reliability in production.",
       url: "https://play.google.com/store/apps/details?id=com.urban.services&hl=en-US&pli=1",
     },
     {
       id: 2,
+      logo: TROMS,
+      name: "TROMS - All-in-One Fitness Companion (Live On App Store)",
+      details:
+        "Developed the complete backend for TROMS, a fitness companion app available on the App Store. The platform enables users to track workouts, follow custom meal plans, and receive personalized fitness recommendations powered by integrated AI models using both Google\'s Gemini API and OpenAI\'s ChatGPT API. Implemented progress tracking and analytics for accurate performance insights, along with secure subscription management for monthly and yearly plans, each offering a 3-day free trial. Designed and deployed a robust backend architecture in Node.js with TypeScript, ensuring scalability, compliance with Apple guidelines, and seamless auto-renewal handling.",
+      url: "https://apps.apple.com/us/app/troms/id6747479780",
+    },
+    {
+      id: 3,
+      logo: QONECT,
+      name: "QONECT - Finance & Credit Access (Live On Play Store)",
+      details:
+        "Developed and deployed scalable backend APIs for Qonect, a medical credit access platform, using Node.js and TypeScript on AWS EC2. Integrated Razorpay for secure payments and third-party healthcare services for instant credit access. Ensured data security and compliance with healthcare regulations while collaborating with frontend teams to deliver a smooth user experience.",
+      url: "https://play.google.com/store/apps/details?id=com.tps_connect",
+    },
+    {
+      id: 4,
+      logo: ARMPOINTS,
+      name: "ARMPOINTS - Reward Application (Live On Play Store)",
+      details:
+        "Developed and deployed robust backend systems using Node.js and Express to manage user rewards, transactions, and analytics. Designed and implemented RESTful APIs for user authentication, reward points tracking, and transaction history management. Ensured data integrity and optimized database queries for efficient reward calculations. Deployed scalable and high-performance backend services on AWS EC2.",
+      url: "https://play.google.com/store/apps/details?id=com.app.armpoint",
+    },
+    {
+      id: 5,
       logo: panchayat,
-      name: "Panchayat - Chat App",
+      name: "Panchayat - Chat App (Live Website)",
       details:
         "Developed a real-time chat application using the MERN stack and Socket.IO, allowing users to join multiple rooms, exchange messages instantly, and view timestamps. Integrated Cloudinary for profile image uploads and designed a responsive UI for a seamless experience across devices.",
       sourceCode: "https://github.com/SuryaPratap03/FileSharingApp",
       url: "https://fastidious-blancmange-74d464.netlify.app/",
     },
     {
-      id: 3,
+      id: 6,
       logo: AICodereviewer,
-      name: "A.I. Code Reviewer 🤖 ",
+      name: "A.I. Code Reviewer 🤖 (Gen AI Live Website)",
       details:
         "Developed an AI-powered code review platform using Node.js for the backend and React for the frontend, integrated with the Gemini API to provide intelligent feedback on code. The platform analyzes code to highlight strengths, suggest improvements, and detect errors, making it a valuable tool for students to enhance their learning and for professionals to improve efficiency in their current jobs or prepare for interviews. Implemented responsive UI with React, ensured seamless API communication, and deployed the application for public use, allowing users to benefit from instant, actionable coding insights.",
       sourceCode: "https://github.com/SuryaPratap03/AI-Code-Reviewer",
       url: "https://ai-code-reviewer-five-beta.vercel.app/",
-    },
-    {
-      id: 4,
-      logo: TROMS,
-      name: "TROMS - All-in-One Fitness Companion'",
-      details:
-        "Developed the complete backend for TROMS, a fitness companion app available on the App Store. The platform enables users to track workouts, follow custom meal plans, and receive personalized fitness recommendations powered by integrated AI models using both Google\'s Gemini API and OpenAI\'s ChatGPT API. Implemented progress tracking and analytics for accurate performance insights, along with secure subscription management for monthly and yearly plans, each offering a 3-day free trial. Designed and deployed a robust backend architecture in Node.js with TypeScript, ensuring scalability, compliance with Apple guidelines, and seamless auto-renewal handling.",
-      url: "https://apps.apple.com/us/app/troms/id6747479780",
     },
   ];
 
