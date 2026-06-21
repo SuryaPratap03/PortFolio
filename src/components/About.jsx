@@ -1,5 +1,5 @@
 import React from "react";
-import user from "../assets/photo.avif";
+import user from "../assets/photo.png";
 import { MdFileDownload } from "react-icons/md";
 
 const About = () => {
@@ -14,139 +14,90 @@ const About = () => {
             </h1>
 
             <p className="text-gray-700 text-lg md:text-xl leading-relaxed">
-              I am a passionate Node.js backend developer with expertise in the
-              MERN stack, Next.js, and a solid foundation in Data Structures and
-              Algorithms. I specialize in designing and developing scalable
-              backend architectures, integrating secure payment systems and
-              AI-powered features, optimizing database performance, and
-              delivering clean, maintainable code for dynamic, responsive
-              applications.
+              Backend Developer with hands-on experience building and scaling production-grade applications using Node.js, TypeScript, Express.js, MongoDB, SQL, and AWS. Proven expertise in designing high-performance REST APIs, MongoDB Aggregation Pipelines, real-time systems with Socket.IO, distributed architectures using Redis Pub/Sub and Bull Queue, and cloud-native deployments. Experienced in payment gateway integrations, AI-powered content moderation, database optimization, and backend systems serving thousands of users. Strong track record of delivering scalable, secure, and reliable applications across Social Media, PropTech, HealthTech, Marketplace, and Reward-based platforms.
             </p>
 
             <h2 className="text-blue-600 font-bold text-2xl">
               Work Experience
             </h2>
 
-            {/* Urban Service Project */}
-            <p className="text-gray-700 text-lg md:text-xl leading-relaxed">
-  At{" "}
-  <a
-    href="https://dotcubetechnologies.com/"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="text-blue-600 hover:underline"
-  >
-    DotCube Technologies
-  </a>
-  , I’ve confidently taken full ownership of backend systems—leading
-  architecture, development, and delivery with precision and reliability. I
-  spearheaded the backend for the live app{" "}
-  <a
-    href="https://play.google.com/store/apps/details?id=com.urban.services&hl=en-US&pli=1"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="text-blue-600 hover:underline"
-  >
-    Urban Service: Local Experts
-  </a>
-  , building the complete backend in{" "}
-  <strong>Node.js with TypeScript</strong>. My work included seamless
-  integration of <strong>Stripe</strong> for payments and designing a reliable
-  recurring payment flow using advanced{" "}
-  <strong>Data Structures and Algorithms</strong>. I optimized data handling
-  with an <strong>SQL database</strong> via <strong>Prisma ORM</strong>,
-  ensuring performance and scalability, while managing deployment pipelines
-  and production hosting on AWS.
-</p>
+            {/* DQOT Solutions */}
+            <div className="mt-4">
+              <h3 className="text-xl font-semibold text-gray-800">
+                MERN Stack Developer at{" "}
+                <span className="text-blue-600">DQOT Solutions</span>
+              </h3>
+              <span className="text-gray-500 text-sm">March 2026 – Present</span>
+              <p className="text-gray-700 text-lg md:text-xl leading-relaxed mt-2">
+                Architected and developed the complete backend for <strong>FrenzyMeet</strong>, a social networking and real-time communication platform serving 10,000+ active users. Designed and built scalable REST APIs using Node.js, Express.js, MongoDB, and TypeScript for user management, messaging, content feeds, and platform operations. Built complex MongoDB Aggregation Pipelines and optimized database queries to reduce response times. Managed AWS infrastructure including EC2 deployments, MongoDB hosting on Atlas, and AWS S3 integration. Implemented real-time messaging using Socket.IO with Redis Pub/Sub, and handled asynchronous background jobs with Redis Bull Queue. Integrated SightEngine AI for automated content moderation and managed Google Play Console releases.
+              </p>
+            </div>
 
-{/* TROMS Project */}
-<p className="text-gray-700 text-lg md:text-xl leading-relaxed mt-6">
-  Additionally, I developed the complete backend for{" "}
-  <a
-    href="https://apps.apple.com/us/app/troms/id6747479780"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="text-blue-600 hover:underline"
-  >
-    TROMS – All-in-One Fitness Companion
-  </a>
-  , an App Store–listed fitness platform. I implemented AI-powered features
-  using <strong>Google’s Gemini API</strong> and{" "}
-  <strong>OpenAI’s ChatGPT API</strong> to generate personalized workout and
-  meal recommendations. Built progress tracking and analytics systems, managed
-  secure subscriptions with free trials and auto-renewals, and ensured Apple
-  compliance. The backend, built with <strong>Node.js and TypeScript</strong>,
-  was engineered for scalability, reliability, and seamless frontend
-  integration.
-</p>
+            {/* Kotibox Global Technologies */}
+            <div className="mt-6">
+              <h3 className="text-xl font-semibold text-gray-800">
+                MERN Stack Team Lead at{" "}
+                <span className="text-blue-600">Kotibox Global Technologies</span>
+              </h3>
+              <span className="text-gray-500 text-sm">January 2026 – February 2026</span>
+              <p className="text-gray-700 text-lg md:text-xl leading-relaxed mt-2">
+                Led a team of 4 developers in the development of <strong>XOTO</strong>, a UAE-based AI-powered PropTech real estate platform. Designed and built scalable REST APIs using Node.js, TypeScript, Express.js, and MongoDB. Implemented authentication, role-based access control, and core business workflows. Configured AWS EC2 and S3 for secure file/media storage, optimized database queries, and conducted regular code reviews to ensure successful project delivery.
+              </p>
+            </div>
 
-{/* Qonect Project */}
-<p className="text-gray-700 text-lg md:text-xl leading-relaxed mt-6">
-  I also developed backend APIs for{" "}
-  <strong>Qonect</strong> (
-  <a
-    href="https://play.google.com/store/apps/details?id=com.tps_connect"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="text-blue-600 hover:underline"
-  >
-    Live on Play Store
-  </a>
-  ), a medical credit access app. Built using{" "}
-  <strong>Node.js and TypeScript</strong>, it integrated{" "}
-  <strong>Razorpay</strong> and third-party healthcare services to provide
-  users with instant access to medical credit. Ensured compliance with
-  healthcare data regulations and deployed scalable, secure services on{" "}
-  <strong>AWS EC2</strong> for high availability and performance.
-</p>
+            {/* DotCube Technologies */}
+            <div className="mt-6">
+              <h3 className="text-xl font-semibold text-gray-800">
+                NodeJS Backend Developer at{" "}
+                <a
+                  href="https://dotcubetechnologies.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 hover:underline"
+                >
+                  DotCube Technologies
+                </a>
+              </h3>
+              <span className="text-gray-500 text-sm">April 2025 – December 2025</span>
+              <p className="text-gray-700 text-lg md:text-xl leading-relaxed mt-2">
+                Took full ownership of backend systems, designing and deploying scalable backend architectures for production web and mobile applications using Node.js, TypeScript, MongoDB, and SQL. Key contributions and projects included:
+              </p>
+              <ul className="list-disc pl-5 mt-2 space-y-2 text-gray-700 text-lg md:text-xl leading-relaxed">
+                <li>
+                  <strong>Urban Service (Local Experts):</strong> Spearheaded backend development in Node.js & TypeScript. Integrated Stripe payment gateway with a robust recurring payment system using advanced Data Structures and Algorithms. Optimized SQL database operations using Prisma ORM and managed AWS production deployments.
+                </li>
+                <li>
+                  <strong>TROMS (Fitness Companion):</strong> Built the complete backend. Integrated Google Gemini and OpenAI ChatGPT APIs for AI-powered recommendations. Designed secure subscription management and progress analytics.
+                </li>
+                <li>
+                  <strong>Qonect:</strong> Engineered APIs and backend workflows for a medical credit access app, integrating Razorpay and third-party healthcare services on AWS EC2.
+                </li>
+                <li>
+                  <strong>ArmPoints (Reward App):</strong> Developed backend systems using Node.js and Express to manage rewards tracking, user authentication, and transaction history.
+                </li>
+              </ul>
+            </div>
 
-{/* ArmPoints Project */}
-<p className="text-gray-700 text-lg md:text-xl leading-relaxed mt-6">
-  I also built the backend for{" "}
-  <strong>ArmPoints</strong> (
-  <a
-    href="https://play.google.com/store/apps/details?id=com.app.armpoint"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="text-blue-600 hover:underline"
-  >
-    Live on Play Store
-  </a>
-  ), a reward management application. Developed RESTful APIs using{" "}
-  <strong>Node.js and Express</strong> to handle user authentication, reward
-  tracking, and transaction analytics. Focused on data integrity, optimized
-  query performance, and deployed scalable backend services on{" "}
-  <strong>AWS EC2</strong> to ensure efficient and reliable performance.
-</p>
-
-<p className="text-gray-700 text-lg md:text-xl leading-relaxed mt-4">
-  I excel at tackling complex backend challenges—from architecture and API
-  design to optimization and deployment—with a strong sense of ownership and a
-  delivery-driven mindset.
-</p>
-
-
-            <h2 className="text-blue-600 font-bold text-2xl">
+            <h2 className="text-blue-600 font-bold text-2xl mt-8">
               Internship Experience
             </h2>
-            <p className="text-gray-700 text-lg md:text-xl leading-relaxed">
-              I worked as a <strong>full-stack developer intern</strong> at
-              <a
-                href="https://weteams.io"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-600 hover:underline"
-              >
-                {" "}
-                WeTeams{" "}
-              </a>
-              in Jaipur, where I handled tasks typically assigned to senior
-              developers. During this internship, I independently developed
-              their entire project using the <strong>MERN stack</strong> without
-              any senior developer's guidance. I gained valuable experience
-              working with large-scale, legacy codebases and improved my skills
-              in managing and optimizing complex applications.
-            </p>
+            <div className="mt-4">
+              <h3 className="text-xl font-semibold text-gray-800">
+                MERN Full Stack Intern at{" "}
+                <a
+                  href="https://weteams.io"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 hover:underline"
+                >
+                  WeTeams
+                </a>
+              </h3>
+              <span className="text-gray-500 text-sm">January 2025 – March 2025</span>
+              <p className="text-gray-700 text-lg md:text-xl leading-relaxed mt-2">
+                Worked on MERN stack applications and maintained a large legacy codebase. Developed backend features, REST APIs, and React-based frontend components while independently resolving complex technical issues and delivering production-ready solutions without senior developer guidance.
+              </p>
+            </div>
 
             <h2 className="text-blue-600 font-bold text-2xl">
               Contact Information
@@ -222,59 +173,39 @@ const About = () => {
 
             {/* Skills & Expertise Section */}
             <h2 className="text-blue-600 font-bold text-2xl mt-8">
-              Skills & Expertise
+              Technical Skills & Expertise
             </h2>
             <p className="text-gray-700 text-lg md:text-xl leading-relaxed mt-4">
-              With a solid foundation in web development, I have honed my skills
-              across a wide range of technologies, including:
+              A comprehensive view of my technical skillset, tools, and methodologies:
             </p>
 
-            <ul className="list-none space-y-2 mt-4">
+            <ul className="list-none space-y-4 mt-4 text-gray-700 text-lg md:text-xl leading-relaxed">
               <li>
-                <span className="font-bold">Generative AI Development:</span>{" "}
-                Experience working with AI models and APIs, including Google's
-                Gemini API and OpenAI's ChatGPT API (GPT-3.5-Turbo and GPT-4.0),
-                for building intelligent and interactive applications.
+                <span className="font-bold">Programming Languages:</span> JavaScript, TypeScript
               </li>
               <li>
-                <span className="font-bold">Frontend Development:</span> React,
-                Next.js, Tailwind CSS, Material UI, and TypeScript.
+                <span className="font-bold">Backend Development:</span> Node.js, Express.js, REST API Development, Microservices, Authentication & Authorization (JWT, OAuth), Real-Time Systems, Scalable Backend Architecture
               </li>
               <li>
-                <span className="font-bold">Backend Development:</span> Node.js,
-                Express.js, MongoDB, RESTful APIs, and TypeScript.
+                <span className="font-bold">Databases:</span> MongoDB, MongoDB Aggregation Pipelines, SQL, Database Design, Query Optimization, Indexing, Prisma ORM, Mongoose
               </li>
               <li>
-                <span className="font-bold">Full-Stack Development:</span> MERN
-                stack with state management using Redux Toolkit.
+                <span className="font-bold">Distributed Systems & Caching:</span> Redis, Redis Pub/Sub, Bull Queue, Socket.IO, Background Job Processing
               </li>
               <li>
-                <span className="font-bold">Payment Gateway Integration:</span>{" "}
-                Stripe integration with recurring payment flows and secure
-                transaction handling.
+                <span className="font-bold">Cloud & DevOps:</span> AWS EC2, AWS S3, MongoDB Atlas, Docker, Nginx, PM2, CI/CD Pipelines, DigitalOcean
               </li>
               <li>
-                <span className="font-bold">Data Structures & Algorithms:</span>{" "}
-                Problem-solving skills with expertise in JavaScript, C, and
-                Java.
+                <span className="font-bold">Payment Systems:</span> Stripe Integration, Razorpay Integration, Subscription Management, Recurring Payments, Auto-Renewal Handling
               </li>
               <li>
-                <span className="font-bold">Version Control:</span> Git and
-                GitHub for efficient code management and collaboration.
+                <span className="font-bold">AI & Third-Party Integrations:</span> OpenAI API, Google Gemini API, SightEngine AI, Third-Party API Integration
               </li>
               <li>
-                <span className="font-bold">Database Management:</span> NoSQL
-                databases with MongoDB and Mongoose ODM, SQL databases with
-                Prisma ORM.
+                <span className="font-bold">Tools & Technologies:</span> Git, GitHub, Postman, Cloudinary
               </li>
               <li>
-                <span className="font-bold">Testing & Debugging:</span>{" "}
-                Experience with unit and integration testing using Jest and
-                Mocha.
-              </li>
-              <li>
-                <span className="font-bold">Agile & Scrum:</span> Familiar with
-                Agile methodologies and Scrum practices.
+                <span className="font-bold">Core Computer Science:</span> Data Structures & Algorithms, System Design, Performance Optimization, Scalable System Architecture
               </li>
             </ul>
           </div>

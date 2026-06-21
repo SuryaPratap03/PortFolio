@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
-import user from "../assets/photo.avif";
+import user from "../assets/photo.png";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);

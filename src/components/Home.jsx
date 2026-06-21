@@ -1,5 +1,5 @@
 import React from 'react';
-import user from '../assets/photo.avif';
+import user from '../assets/photo.png';
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
