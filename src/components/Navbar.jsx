@@ -25,7 +25,7 @@ const Navbar = () => {
             className="w-12 h-12 rounded-full object-cover border-2 border-blue-400"
           />
           <div>
-            <h1 className="text-xl font-bold text-white">Surya</h1>
+            <h1 className="text-xl font-bold text-white">Surya Pratap</h1>
             <p className="text-sm font-bold text-blue-200">Software Engineer</p>
           </div>
         </div>
